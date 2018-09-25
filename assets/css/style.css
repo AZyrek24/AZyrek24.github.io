@@ -22,7 +22,7 @@ body {
 
 span {
   animation-name: name;
-  animation-duration: 4s;
+  animation-duration: 3s;
   color: #edf2f4;
 }
 a {
@@ -30,8 +30,10 @@ a {
   animation-duration: 4s;
   color: #edf2f4;
 }
-i, li, {
-  color: #edf2f4;
+
+.card {
+  width: 380px;
+  margin-left: 40px;
 }
 .section {
   background-image: linear-gradient(to right,#2b2d42, #3e4053);
@@ -50,9 +52,18 @@ i, li, {
 }
 #intro {
   animation-name: header;
-  animation-duration: 4s;
+  animation-duration: 3s;
   color: #ef233c;
 }
 #name {
   color: #edf2f4;
+}
+#get-a-gig-content {
+  height: 214px;
+}
+i, li, {
+  color: #edf2f4;
+}
+.card-action {
+  color: black;
 }
