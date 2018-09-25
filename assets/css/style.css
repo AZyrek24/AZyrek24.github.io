@@ -1,0 +1,58 @@
+/* Custom Stylesheet */
+/**
+ * Use this file to override Materialize files so you can update
+ * the core Materialize files in the future
+ *
+ * Made By MaterializeCSS.com
+ */
+ @keyframes name {
+  0%   {color: #ef233c;}
+  25%  {color: #ef233c;}
+  100% {color: #edf2f4;}
+}
+@keyframes header {
+  0% {color: #edf2f4;}
+  25% {color: #edf2f4;}
+  100%  {color: #ef233c;}
+}
+
+body {
+  font-family: Georgia, 'Times New Roman', Times, serif
+}
+
+span {
+  animation-name: name;
+  animation-duration: 4s;
+  color: #edf2f4;
+}
+a {
+  animation-name: name;
+  animation-duration: 4s;
+  color: #edf2f4;
+}
+i, li, {
+  color: #edf2f4;
+}
+.section {
+  background-image: linear-gradient(to right,#2b2d42, #3e4053);
+}
+.icon-block {
+  padding: 0 15px;
+}
+.icon-block .material-icons {
+	font-size: inherit;
+}
+.sidenav {
+  background: linear-gradient(to right,#2b2d42, #3e4053);
+}
+.material-icons {
+  color: #ef233c;
+}
+#intro {
+  animation-name: header;
+  animation-duration: 4s;
+  color: #ef233c;
+}
+#name {
+  color: #edf2f4;
+}
