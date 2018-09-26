@@ -30,10 +30,9 @@ a {
   animation-duration: 4s;
   color: #edf2f4;
 }
-
 .card {
-  width: 380px;
-  margin-left: 40px;
+  width: 320px;
+  margin-left: 50px;
 }
 .section {
   background-image: linear-gradient(to right,#2b2d42, #3e4053);
@@ -59,7 +58,10 @@ a {
   color: #edf2f4;
 }
 #get-a-gig-content {
-  height: 214px;
+  height: 200px;
+}
+#coming-soon{
+  height: 200px;
 }
 i, li, {
   color: #edf2f4;
@@ -67,3 +69,21 @@ i, li, {
 .card-action {
   color: black;
 }
+#tony-photo {
+  height: 80%;
+  width: 80%
+}
+#email {
+  animation-name: header;
+  animation-duration: 3s;
+  color: #ef233c;
+}
+#name-footer {
+  animation-name: header;
+  animation-duration: 3s;
+  color: #ef233c;
+}
+.page-footer {
+  background-image: linear-gradient(to right,#2b2d42, #3e4053);
+}
+

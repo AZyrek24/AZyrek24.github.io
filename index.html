@@ -29,7 +29,7 @@
               <a href="#email"><span class="email">aleezyrek@gmail.com</span></a>
             </div>
         </li>
-        <li><a href="#portfolio"><i class="material-icons waves-effect">folder</i>My Work</a></li>
+        <li><a href=""><i class="material-icons waves-effect">folder</i>My Work</a></li>
         <li><a href="#about" class="waves-effect">About Me</a></li>
         <li>
           <div class="divider"></div>
@@ -43,22 +43,18 @@
         <span>Tony Lee Zyrek</span><br>a web developer</h2>
       </div>
       <div class="row center">
-        <a href="#portfolio" id="download-button" class="btn-large waves-effect waves-light red accent-3">Here's
+        <a href="./index.html#navbar" id="download-button" class="btn-large waves-effect waves-light red accent-3">Here's
           my Work</a>
       </div>
       <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
 
     </div>
   </div>
-
-  <nav class="blue-grey lighten-3" role="navigation">
-    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Top</a>
+  
+  <nav id="navbar" class="blue-grey lighten-3" role="navigation">
+    <div class="nav-wrapper container"><a id="logo-container" href="#" class="brand-logo">Back to Top</a>
       <ul class="right hide-on-med-and-down">
-        <li><a href="#">Navbar Link</a></li>
-      </ul>
-
-      <ul id="nav-mobile" class="sidenav">
-        <li><a href="#">Navbar Link</a></li>
+        <li><a href="./index.html#about-me">About Me</a></li>
       </ul>
       <a href="#" data-target="nav-mobile" class="sidenav-trigger"><i class="material-icons"></i></a>
     </div>
@@ -85,7 +81,7 @@
                   needed for a project.</p>
               </div>
               <div class="card-action">
-                <a href="https://azyrek24.github.io/Project1/">Project1</a>
+                <a href="https://azyrek24.github.io/Project1/" target="blank">Project1</a>
               </div>
             </div>
           </div>
@@ -103,40 +99,62 @@
                 <p>An full-stack app to find odd jobs and freelance work in your local area.</p>
               </div>
               <div class="card-action">
-                <a href="https://secret-tundra-62346.herokuapp.com/">Get-A-Gig</a>
+                <a href="https://secret-tundra-62346.herokuapp.com/" target="blank">Get-A-Gig</a>
               </div>
             </div>
           </div>
         </div>
       </div>
+
+      <div class="col s12 m4">
+          <div class="row">
+            <div class="col s12 m7">
+              <div class="card">
+                <div class="card-image">
+                  <img src="./assets/images/Coming-soon.jpg">
+                </div>
+                <div class="card-content" id="coming-soon">
+                  <p>An organization productivity app for group food ordering. </p>
+                </div>
+                <div class="card-action">
+                  <a href="https://secret-tundra-62346.herokuapp.com/" target="blank">DoGoNuts</a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
     </div>
 
   </div>
   <br><br>
 
 
-  <footer class="page-footer orange">
+  <footer class="page-footer">
     <div class="container">
       <div class="row">
         <div class="col l6 s12">
-          <h5 class="white-text">Company Bio</h5>
-          <p class="grey-text text-lighten-4">We are a team of college students working on this project like it's our
-            full time job. Any amount would help support and continue development on this project and is greatly
-            appreciated.</p>
-
-
+          <img id="tony-photo" src="assets/images/b&w_profile_photo.jpeg">
+        </div>
+        <div class="col l6 s12">
+          <h5 id="about-me" class="white-text">About Me</h5>
+          <p class="grey-text text-lighten-4">I believe that a strong website demonstrates ideas; a place where I separate myself from other developers.</p> <p>I love to compose and play music, and I am a fan of the arts. Half of the reason that I like to golf is because I appreciate the landscape. The other half is continuing to improve at a life-long sport. It is with this mentality that I can continue to bring fresh ideas and compelling designs to an ever-growing internet.</p>
+          <h6>Contact Info</h6>
+          <a href="mailto:tleezyrek@gmail.com" id="email">Email: tleezyrek@gmail.com</a>
+          
+          
         </div>
       </div>  
     </div>
-    <div class="footer-copyright">
+    <div class="footer">
       <div class="container">
-        Made with <a class="orange-text text-lighten-3" href="http://materializecss.com"></a>Materialize</a>Built by Tony Lee Zyrek
+        Made with <a class=" text-lighten-3" href="http://materializecss.com">Materialize</a> | <span><a  id="name-footer" href="https://www.linkedin.com/in/tony-lee-zyrek-58688b158/" >Built by Tony Lee Zyrek</a></span>
       </div>
     </div>
   </footer>
 
 
   <!--  Scripts-->
+  <script src="assets/js/javascript.js"></script>
   <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script src="assets/js/materialize.js"></script>
   <script src="assets/js/init.js"></script>
