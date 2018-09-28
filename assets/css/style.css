@@ -30,9 +30,18 @@ a {
   animation-duration: 4s;
   color: #edf2f4;
 }
+#work-button {
+  box-shadow: 6px 6px black;
+}
+#tony-photo {
+  border-radius: 2px;
+  box-shadow: 6px 6px black;
+}
 .card {
   width: 320px;
   margin-left: 60px;
+  border-radius: 2px;
+  box-shadow: 6px 6px;
 }
 .section {
   background-image: linear-gradient(to right,#2b2d42, #3e4053);
@@ -44,6 +53,9 @@ a {
   font-size: inherit;
   color: #edf2f4;
 }
+.sidenav-trigger {
+  text-shadow: 4px 4px black;
+}
 .sidenav {
   background: linear-gradient(to right,#2b2d42, #3e4053);
 }
@@ -54,25 +66,37 @@ a {
   animation-name: header;
   animation-duration: 3s;
   color: #ef233c;
+  text-shadow: 4px 4px black;
 }
 #name {
   color: #edf2f4;
 }
 #get-a-gig-content {
-  height: 200px;
+  height: 197px;
 }
 #coming-soon{
-  height: 200px;
+  height: 204px;
+}
+#featured-apps-header {
+  text-align: center; 
+  text-shadow: 4px 4px black;
+  color: #edf2f4;
 }
 i, li, {
   color: #edf2f4;
 }
-/* .card-action {
+.card-action {
   color: black;
-} */
+}
 #tony-photo {
   height: 80%;
   width: 80%
+}
+#about-me-header {
+  text-shadow: 4px 4px black;
+}
+#contact-info-header {
+  text-shadow: 4px 4px black;
 }
 #email {
   animation-name: header;
