@@ -32,7 +32,7 @@ a {
 }
 .card {
   width: 320px;
-  margin-left: 50px;
+  margin-left: 60px;
 }
 .section {
   background-image: linear-gradient(to right,#2b2d42, #3e4053);
@@ -41,7 +41,8 @@ a {
   padding: 0 15px;
 }
 .icon-block .material-icons {
-	font-size: inherit;
+  font-size: inherit;
+  color: #edf2f4;
 }
 .sidenav {
   background: linear-gradient(to right,#2b2d42, #3e4053);
@@ -66,9 +67,9 @@ a {
 i, li, {
   color: #edf2f4;
 }
-.card-action {
+/* .card-action {
   color: black;
-}
+} */
 #tony-photo {
   height: 80%;
   width: 80%
