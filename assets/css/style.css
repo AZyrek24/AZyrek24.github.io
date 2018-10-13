@@ -32,6 +32,7 @@ a {
 }
 p {
   font-size: 17px;
+  color: white;
 }
 #work-button {
   box-shadow: 5px 5px black;
@@ -71,18 +72,28 @@ p {
   color: #ef233c;
   text-shadow: 3px 3px black;
 }
+#about-me {
+  background-image: linear-gradient(to right,#2b2d42, #3e4053);
+  border-radius: 5px;
+  padding: 30px;
+  margin: 60px 0px 60px 0px;
+}
 #name {
   color: #edf2f4;
 }
 #get-a-gig-content {
   height: 183px;
 }
-#coming-soon{
+#godonuts{
   height: 183px;
+}
+#featured-apps-container {
+  border: 15px solid #ef233c;
 }
 #featured-apps-header {
   text-align: center; 
   text-shadow: 3px 3px black;
+  margin-top: 60px;
   color: #edf2f4;
 }
 i, li, {
@@ -99,7 +110,7 @@ i, li, {
   text-shadow: 3px 3px black;
 }
 #contact-info-header {
-  text-shadow: 3px 3px black;
+  color: white;
 }
 #email {
   animation-name: header;
@@ -113,5 +124,6 @@ i, li, {
 }
 .page-footer {
   background-image: linear-gradient(to right,#2b2d42, #3e4053);
+  margin: auto;
 }
 
